@@ -282,6 +282,22 @@
     margin: 0 auto;
   }
 
+  .ourvalues-content > .caption {
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .ourvalues-content > .caption > p {
+    text-align: left;
+    margin-bottom: 24px;
+  }
+
+  .ourvalues-content > .caption > p:last-child {
+    margin-bottom: 48px;
+  }
+
+
   .ourvalues-content-left {
     text-align: left;
     width: 49%;
