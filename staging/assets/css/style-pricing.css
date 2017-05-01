@@ -568,15 +568,13 @@
   .bonus-section {
     height: 100%;
     position: relative;
-    margin: 120px;
   }
 
   .bonus-container {
     padding: 24px;
     max-width: 480px;
-    margin: 120px auto;
+    margin: 80px auto 120px;
     box-shadow: 0px 5px 20px -5px rgba(153,153,153,1);
-    display: none;
   }
 
   .bonus-form-submit {
