@@ -3,8 +3,7 @@
   .hero-section,
   .whatsincluded-section,
   .whositfor-section,
-  .work-section,
-  .values-section,
+  .uxplan-section,
   .contactform-section  {
     width: 100%;
     position: relative;
@@ -290,7 +289,7 @@
 
   .whositfor-section > .container {
     height: 100%;
-    padding: 200px 48px 240px;
+    padding: 80px 48px 240px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -310,11 +309,11 @@
 
   .whositfor-content-left {
     text-align: left;
-    color: #ffffff;
   }
 
   .whositfor-content-right {
-    height: 400px; /*delete*/
+    height: 320px; /*delete*/
+    margin: 48px 0;
   }
 
   .whositfor-content-left > .heading:after {
@@ -322,8 +321,8 @@
   }
 
   .whositfor-content > .icon {
-    background-image: url(../img/icons/whatsincluded.svg);
-    height: 400px;
+    background-image: url(../img/icons/whositfor.svg);
+    height: 320px;
     width: auto;
     display: block;
     background-repeat: no-repeat;
@@ -361,51 +360,6 @@
     font-weight: 700;
   }
 
-  .whositfor-background {
-    height: calc(100% - 144px);
-    width: 100%;
-    position: absolute;
-    top: 0;
-  }
-
-  .whositfor-front,
-  .whositfor-back {
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    overflow: hidden;
-  }
-
-  .whositfor-front {
-    top: 72px;
-    z-index: -8;
-    -webkit-transform: skewY(5deg);
-    transform: skewY(5deg);
-  }
-
-  .whositfor-back {
-    top: 56px;
-    z-index: -16;
-    -webkit-transform: skewY(-5deg);
-    transform: skewY(-5deg);
-  }
-
-  .whositfor-front > .front,
-  .whositfor-back > .back {
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-  }
-
-  .whositfor-front > .front {
-    background-color: #0D2132;
-  }
-
-  .whositfor-back > .back {
-    background-color: #70B3B8;
-  }
-
 /* Section - Services */
   .uxplan-section {
     height: 100%;
@@ -413,7 +367,9 @@
 
   .uxplan-section > .container {
     height: 100%;
-    padding: 80px 48px 120px;
+    padding: 0 48px;
+    top: -48px;
+    position: relative;
   }
 
   .uxplan-content {
@@ -464,7 +420,7 @@
 
   .uxplan-info {
     padding: 32px 24px;
-    min-height: 904px;
+    min-height: 960px;
   }
 
   .uxplan-info > .title {
@@ -495,14 +451,14 @@
   .uxplan-info > .list {
     list-style-type: disc;
     text-align: left;
-    line-height: 16px;
+    font-size: 18px;
     margin-left: 20px;
     margin-bottom: 36px;
   }
 
   .uxplan-info > .list > .item {
     margin-bottom: 12px;
-    line-height: 19px;
+    line-height: 25px;
   }
 
   .uxplan-info > .divider {
@@ -544,6 +500,52 @@
     border-right: 50px solid transparent;
   }
 
+  .uxplan-background {
+    height: calc(100% - 200px);
+    width: 100%;
+    position: absolute;
+    top: 0;
+  }
+
+  .uxplan-front,
+  .uxplan-back {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+  }
+
+  .uxplan-front {
+    top: 72px;
+    z-index: -8;
+    -webkit-transform: skewY(5deg);
+    transform: skewY(5deg);
+  }
+
+  .uxplan-back {
+    top: 56px;
+    z-index: -16;
+    -webkit-transform: skewY(-5deg);
+    transform: skewY(-5deg);
+  }
+
+  .uxplan-front > .front,
+  .uxplan-back > .back {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+  }
+
+  .uxplan-front > .front {
+    background-color: #0D2132;
+  }
+
+  .uxplan-back > .back {
+    background-color: #70B3B8;
+  }
+
+
 /* Section - Footer */
 
   .footer > .container {
@@ -560,6 +562,81 @@
   .footer-back > .back {
     -webkit-transform: skewY(-5deg);
     transform: skewY(-5deg);
+  }
+
+/* Section - Bonus */
+  .bonus-section {
+    height: 100%;
+    position: relative;
+    margin: 120px;
+  }
+
+  .bonus-container {
+    padding: 24px;
+    max-width: 480px;
+    margin: 120px auto;
+    box-shadow: 0px 5px 20px -5px rgba(153,153,153,1);
+    display: none;
+  }
+
+  .bonus-form-submit {
+    float: right;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    font-size: 16px;
+    letter-spacing: 2px;
+  }
+
+  .bonus-box {
+    width: 100%;
+  }
+
+  .bonus-label {
+    margin-bottom: 16px;
+    display: block;
+    text-align: center;
+  }
+
+  .bonus-textbox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+
+  .bonus-input {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 75%;
+            flex: 0 1 75%;
+    height: 100%;
+  }
+
+  .bonus-input > input {
+    padding: 16px;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    margin-right: 20px;
+    box-sizing: border-box;
+    width: 100%;
+    border: none;
+    border: 1px solid #0D2132;
+  }
+
+  .bonus-submit {
+    padding: 0px 16px;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 25%;
+            flex: 0 1 25%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+         appearance: none;
+    border: none;
+    font-size: 16px;
+    letter-spacing: 2px;
   }
 
 /* Media Queries */
