@@ -210,13 +210,8 @@
 
   .ourvalues-content-left,  
   .ourvalues-content-right {
-    text-align: left;
+    text-align: center;
     flex: 0 1 47%;
-  }
-
-  .ourvalues-content-left > .heading:after,
-  .ourvalues-content-right > .heading:after {
-    margin-left: 0;
   }
 
   .ourvalues-content > .caption {
@@ -255,6 +250,11 @@
     font-size: 18px;
     line-height: 25px;
     display: inline-block;
+  }
+
+  .ourvalues-list > .item > .info > span {
+    color: #B70303;
+    font-weight: 700;
   }
 
   .ourvalues-list > .item > .icon {
