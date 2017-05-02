@@ -1,0 +1,574 @@
+/* Constants */
+  .hero-section,
+  .ourmission-section,
+  .ourvalues-section,
+  .ourprocess-section,
+  .ourteam-section,
+  .values-section,
+  .contactform-section  {
+    width: 100%;
+    position: relative;
+  }
+
+  .background {
+    z-index: -8;
+  }
+
+  #ourmission,
+  #ourvalues,
+  #ourprocess,
+  #ourteam,
+  #work,
+  #values,
+  #contactform {
+    position: absolute;
+  }
+
+  #ourmission,
+  #work,
+  #contactform {
+    top: -80px;
+  }
+
+  #ourvalues {
+    top: -120px;
+  }
+
+  #values {
+    top: -160px;
+  }
+
+  .red-divider:after {
+    content: '';
+    background-color: #B70303;
+    width: 100%;
+    height: 2px;
+    max-width: 96px;
+    display: block;
+    margin: 36px auto 48px;
+  }
+
+
+/* Section - Hero */
+  .hero-section {
+    height: 100%;
+  }
+
+  .hero-section > .container {
+    padding: 288px 48px 320px;
+    height: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: left;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+
+  .hero-content {
+    color: #ffffff;
+    margin: auto 0;
+  }
+
+  .hero-content-left {
+    width: 50%;
+  }
+
+  .hero-content > .flueron {
+    background: url(../img/logos/apical-logo-black.svg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-indent: -9999px;
+    margin: 0 auto 16px;
+    height: 80px;
+    width: 80px;
+  }
+
+  .hero-content > .main-heading {
+    margin-bottom: 24px;
+  }
+
+  .hero-content > .caption {
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 36px;
+  }
+
+  .hero-front,
+  .hero-back {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+  }
+
+  .hero-front {
+    top: -10%;
+    z-index: -8;
+    -webkit-transform: skewY(5deg);
+    transform: skewY(5deg);
+  }
+
+  .hero-back {
+    top: -12.5%;
+    z-index: -16;
+    -webkit-transform: skewY(-5deg);
+    transform: skewY(-5deg);
+  }
+
+  .hero-front > .front,
+  .hero-back > .back {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+
+  .hero-front > .front {
+    background-image: url(../img/stock/pricing-hero.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-transform: skewY(-5deg);
+    transform: skewY(-5deg);
+    top: 10%;
+  }
+
+  .hero-back > .back {
+    background-color: #70B3B8;
+    top: 0;
+  }
+
+/* Section - Our Mission */
+  .ourmission-section {
+    height: 100%;
+  }
+
+  .ourmission-section > .container {
+    height: 100%;
+    padding: 120px 48px 160px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+
+  .ourmission-content {
+    text-align: center;
+    width: 100%;
+  }
+
+  .ourmission-content > .caption {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .ourmission-content > .caption > p {
+    text-align: left;
+    margin-bottom: 24px;
+  }
+
+  .ourmission-content > .caption > p:last-child {
+    margin-bottom: 48px;
+  }
+
+/* Section - Our Values */
+  .ourvalues-section {
+    height: 100%;
+  }
+
+  .ourvalues-section > .container {
+    height: 100%;
+    padding: 200px 48px 240px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+
+  .ourvalues-content {
+    text-align: center;
+    color: #ffffff;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .ourvalues-content > .caption {
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .ourvalues-content > .caption > p {
+    text-align: left;
+    margin-bottom: 24px;
+  }
+
+  .ourvalues-content > .caption > p:last-child {
+    margin-bottom: 48px;
+  }
+
+
+  .ourvalues-content-left {
+    text-align: left;
+    width: 49%;
+  }
+
+  .ourvalues-content-right {
+    height: 320px; /*delete*/
+    width: 49%;
+  }
+
+  .ourvalues-content-left > .heading:after {
+    margin-left: 0;
+  }
+
+  .ourvalues-list {
+    list-style-type: none;
+    text-align: left;
+    line-height: 16px;
+    margin-bottom: 36px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .ourvalues-list > .item {
+    margin-bottom: 12px;
+    line-height: 19px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .ourvalues-list > .item > .icon, 
+  .ourvalues-list > .item > .info {
+    display: inline-block;
+  }
+
+  .ourvalues-list > .item > .icon {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 24px;
+            flex: 0 0 24px;
+  }
+
+  .ourvalues-background {
+    height: calc(100% - 144px);
+    width: 100%;
+    position: absolute;
+    top: 0;
+  }
+
+  .ourvalues-front,
+  .ourvalues-back {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+  }
+
+  .ourvalues-front {
+    top: 72px;
+    z-index: -8;
+    -webkit-transform: skewY(5deg);
+    transform: skewY(5deg);
+  }
+
+  .ourvalues-back {
+    top: 56px;
+    z-index: -16;
+    -webkit-transform: skewY(-5deg);
+    transform: skewY(-5deg);
+  }
+
+  .ourvalues-front > .front,
+  .ourvalues-back > .back {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+  }
+
+  .ourvalues-front > .front {
+    background-color: #0D2132;
+  }
+
+  .ourvalues-back > .back {
+    background-color: #70B3B8;
+  }
+
+/* Section - Our Process */
+  .ourprocess-section {
+    height: 100%;
+  }
+
+  .ourprocess-section > .container {
+    height: 100%;
+    padding: 120px 48px 160px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+
+  .ourprocess-content {
+    text-align: center;
+    width: 100%;
+  }
+
+  .ourprocess-content > .caption {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .ourprocess-content > .caption > p {
+    text-align: left;
+    margin-bottom: 24px;
+  }
+
+  .ourprocess-content > .caption > p:last-child {
+    margin-bottom: 48px;
+  }
+
+
+/* Section - Our Values */
+  .ourteam-section {
+    height: 100%;
+  }
+
+  .ourteam-section > .container {
+    height: 100%;
+    padding: 200px 48px 240px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+
+  .ourteam-content {
+    text-align: center;
+    color: #ffffff;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .ourteam-content-left {
+    text-align: left;
+    width: 49%;
+  }
+
+  .ourteam-content-right {
+    height: 320px; /*delete*/
+    width: 49%;
+  }
+
+  .ourteam-content-left > .heading:after {
+    margin-left: 0;
+  }
+
+  .ourteam-list {
+    list-style-type: none;
+    text-align: left;
+    line-height: 16px;
+    margin-bottom: 36px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 640px;
+  }
+
+  .ourteam-background {
+    height: calc(100% - 144px);
+    width: 100%;
+    position: absolute;
+    top: 0;
+  }
+
+  .ourteam-front,
+  .ourteam-back {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+  }
+
+  .ourteam-front {
+    top: 72px;
+    z-index: -8;
+    -webkit-transform: skewY(5deg);
+    transform: skewY(5deg);
+  }
+
+  .ourteam-back {
+    top: 56px;
+    z-index: -16;
+    -webkit-transform: skewY(-5deg);
+    transform: skewY(-5deg);
+  }
+
+  .ourteam-front > .front,
+  .ourteam-back > .back {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+  }
+
+  .ourteam-front > .front {
+    background-color: #0D2132;
+  }
+
+  .ourteam-back > .back {
+    background-color: #70B3B8;
+  }
+
+/* Section - Member Photo */  
+  .member {
+    flex: 0 1 48%;
+    height: 100%;
+  }
+
+  .member > h5 {
+    margin-top: 16px;
+    margin-bottom: 8px; 
+  }
+  .member > p {
+    margin-bottom: 16px;
+  }
+
+  .member-photo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    overflow: hidden;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-transform: skewY(5deg);
+            transform: skewY(5deg);
+  }
+
+  .member-placeholder {
+    position: relative;
+    padding: 160px 50%;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 50%;
+            flex: 0 1 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-transform: skewY(-5deg);
+            transform: skewY(-5deg);
+  }
+
+  .member-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: skewY(5deg);
+            transform: skewY(5deg);
+  }
+
+  .member-image:before {
+    content: "";
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    top: -10%;
+    left: -10%;
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-transform: skewY(-5deg);
+            transform: skewY(-5deg);
+  }
+
+  .member:nth-child(1) > .member-photo > .member-placeholder > .member-image:before {
+    background-image: url(../img/team/team-1.jpg);
+  }
+  .member:nth-child(2) > .member-photo > .member-placeholder > .member-image:before {
+    background-image: url(../img/team/team-2.jpg);
+  }
+
+/* Section - Footer */
+
+  .footer > .container {
+    padding: 80px 48px;
+  }
+
+  .footer-back {
+    -webkit-transform: skewY(-5deg);
+    transform: skewY(-5deg);
+  }
+
+  .footer-back > .back {
+    -webkit-transform: skewY(-5deg);
+    transform: skewY(-5deg);
+  }
+
+/* Media Queries */
+  @media screen and (max-width: 640px) {
+    .hero-section > .container {
+      padding: 240px 48px;
+    }
+
+    .ourmission-content > .row > .column {
+      -ms-flex-preferred-size: 100%;
+          flex-basis: 100%;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .hero-content {
+      width: 100%;
+    }
+    
+    .ourmission-content,
+    .ourvalues-content,
+    .ourprocess-content {
+      -webkit-box-flex: 0;
+          -ms-flex: 0 1 100%;
+              flex: 0 1 100%;
+      margin: 0 0 24px;
+    }
+
+    .uxplan-content > .row > .column {
+      margin-bottom: 24px;
+      -webkit-box-flex: 0;
+          -ms-flex: 0 1 100%;
+              flex: 0 1 100%;
+    }
+  }
