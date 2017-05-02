@@ -285,8 +285,9 @@
   }
 
   .services-card > .content > .list > .item {
+    font-size: 18px;
+    line-height: 25px;
     margin-bottom: 12px;
-    line-height: 19px;
   }
 
   .services-background {
@@ -526,7 +527,7 @@
     font-size: 16px;
     letter-spacing: 2px;
   }
-  
+
   .bonus-box {
     width: 100%;
   }
