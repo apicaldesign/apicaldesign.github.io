@@ -71,14 +71,19 @@
   }
 
   p { 
-    line-height: 21px;
-    font-size: 16px; 
+    line-height: 25px;
+    font-size: 18px; 
     font-weight: 100;
     word-wrap: break-word;
   }
 
   ul {
     list-style-type: none;
+  }
+
+  li {
+    line-height: 25px;
+    font-size: 18px; 
   }
 
 /* Elements */
