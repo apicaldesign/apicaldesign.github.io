@@ -44,7 +44,7 @@
     display: block;
     margin: 36px auto 48px;
   }
-  
+
 
 /* Section - Hero */
   .hero-section {
@@ -199,6 +199,8 @@
 
   .whatsincluded-list > .item > .icon, 
   .whatsincluded-list > .item > .info {
+    font-size: 18px;
+    line-height: 25px;
     display: inline-block;
   }
 
@@ -273,6 +275,8 @@
 
   .whositfor-list > .item > .icon, 
   .whositfor-list > .item > .info {
+    font-size: 18px;
+    line-height: 25px;
     display: inline-block;
   }
 
