@@ -81,11 +81,6 @@
     list-style-type: none;
   }
 
-  li {
-    line-height: 25px;
-    font-size: 18px; 
-  }
-
 /* Elements */
   .btn {
     font-family: 'Nunito', sans-serif;
