@@ -283,7 +283,6 @@
                 "color": "#000000",
                 "width": "100%",
                 "font-family": "Karla, sans-serif",
-                "font-size": "18px",
                 "padding": "16px",
                 "text-align": "left",
                 ":hover": {
@@ -382,7 +381,6 @@
                 "color": "#000000",
                 "width": "100%",
                 "font-family": "Karla, sans-serif",
-                "font-size": "18px",
                 "padding": "16px",
                 "text-align": "left",
                 ":hover": {
@@ -477,7 +475,6 @@
           }
         }
       });
-
       /* Content Strategy */
       ui.createComponent('product', {
         id: [10167228614],
@@ -513,7 +510,6 @@
                 "color": "#000000",
                 "width": "100%",
                 "font-family": "Karla, sans-serif",
-                "font-size": "18px",
                 "padding": "16px",
                 "text-align": "left",
                 ":hover": {
@@ -612,7 +608,6 @@
                 "color": "#000000",
                 "width": "100%",
                 "font-family": "Karla, sans-serif",
-                "font-size": "18px",
                 "padding": "16px",
                 "text-align": "left",
                 ":hover": {
@@ -742,7 +737,6 @@
                 "color": "#000000",
                 "width": "100%",
                 "font-family": "Karla, sans-serif",
-                "font-size": "18px",
                 "padding": "16px",
                 "text-align": "left",
                 ":hover": {
@@ -841,7 +835,6 @@
                 "color": "#000000",
                 "width": "100%",
                 "font-family": "Karla, sans-serif",
-                "font-size": "18px",
                 "padding": "16px",
                 "text-align": "left",
                 ":hover": {
@@ -971,7 +964,6 @@
                 "color": "#000000",
                 "width": "100%",
                 "font-family": "Karla, sans-serif",
-                "font-size": "18px",
                 "padding": "16px",
                 "text-align": "left",
                 ":hover": {
@@ -1070,7 +1062,6 @@
                 "color": "#000000",
                 "width": "100%",
                 "font-family": "Karla, sans-serif",
-                "font-size": "18px",
                 "padding": "16px",
                 "text-align": "left",
                 ":hover": {
@@ -1421,7 +1412,6 @@
                 "color": "#000000",
                 "width": "100%",
                 "font-family": "Karla, sans-serif",
-                "font-size": "18px",
                 "padding": "16px",
                 "text-align": "left",
                 ":hover": {
@@ -1520,7 +1510,6 @@
                 "color": "#000000",
                 "width": "100%",
                 "font-family": "Karla, sans-serif",
-                "font-size": "18px",
                 "padding": "16px",
                 "text-align": "left",
                 ":hover": {
@@ -1650,7 +1639,6 @@
                 "color": "#000000",
                 "width": "100%",
                 "font-family": "Karla, sans-serif",
-                "font-size": "18px",
                 "padding": "16px",
                 "text-align": "left",
                 ":hover": {
@@ -1749,7 +1737,6 @@
                 "color": "#000000",
                 "width": "100%",
                 "font-family": "Karla, sans-serif",
-                "font-size": "18px",
                 "padding": "16px",
                 "text-align": "left",
                 ":hover": {
@@ -1879,7 +1866,6 @@
                 "color": "#000000",
                 "width": "100%",
                 "font-family": "Karla, sans-serif",
-                "font-size": "18px",
                 "padding": "16px",
                 "text-align": "left",
                 ":hover": {
@@ -1978,7 +1964,6 @@
                 "color": "#000000",
                 "width": "100%",
                 "font-family": "Karla, sans-serif",
-                "font-size": "18px",
                 "padding": "16px",
                 "text-align": "left",
                 ":hover": {
@@ -2329,7 +2314,6 @@
                 "color": "#000000",
                 "width": "100%",
                 "font-family": "Karla, sans-serif",
-                "font-size": "18px",
                 "padding": "16px",
                 "text-align": "left",
                 ":hover": {
@@ -2428,7 +2412,6 @@
                 "color": "#000000",
                 "width": "100%",
                 "font-family": "Karla, sans-serif",
-                "font-size": "18px",
                 "padding": "16px",
                 "text-align": "left",
                 ":hover": {
