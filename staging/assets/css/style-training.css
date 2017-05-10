@@ -1,0 +1,580 @@
+/* Constants */
+  .hero-section,
+  .nobg-section,
+  .withbg-section,
+  .contactform-section  {
+    width: 100%;
+    position: relative;
+  }
+
+  .background {
+    z-index: -8;
+  }
+
+  #nobg,
+  #withbg,
+  #values,
+  #contactform {
+    position: absolute;
+  }
+
+  #nobg,
+  #contactform {
+    top: -80px;
+  }
+
+  #withbg {
+    top: -120px;
+  }
+
+  #values {
+    top: -160px;
+  }
+
+  .red-divider:after {
+    content: '';
+    background-color: #B70303;
+    width: 100%;
+    height: 2px;
+    max-width: 96px;
+    display: block;
+    margin: 36px auto 48px;
+  }
+
+
+/* Section - Hero */
+  .hero-section {
+    height: 100%;
+  }
+
+  .hero-section > .container {
+    padding: 288px 48px 320px;
+    height: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: left;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+
+  .hero-content {
+    color: #ffffff;
+    margin: auto 0;
+  }
+
+  .hero-content-left {
+    width: 50%;
+  }
+
+  .hero-content > .flueron {
+    background: url(../img/logos/apical-logo-black.svg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-indent: -9999px;
+    margin: 0 auto 16px;
+    height: 80px;
+    width: 80px;
+  }
+
+  .hero-content > .main-heading {
+    margin-bottom: 24px;
+  }
+
+  .hero-content > .caption {
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 36px;
+  }
+
+  .hero-front,
+  .hero-back {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+  }
+
+  .hero-front {
+    top: -10%;
+    z-index: -8;
+    -webkit-transform: skewY(5deg);
+    transform: skewY(5deg);
+  }
+
+  .hero-back {
+    top: -12.5%;
+    z-index: -16;
+    -webkit-transform: skewY(-5deg);
+    transform: skewY(-5deg);
+  }
+
+  .hero-front > .front,
+  .hero-back > .back {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+
+  .hero-front > .front {
+    background-image: url(../img/stock/pricing-hero.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-transform: skewY(-5deg);
+    transform: skewY(-5deg);
+    top: 10%;
+  }
+
+  .hero-back > .back {
+    background-color: #70B3B8;
+    top: 0;
+  }
+
+/* Section - No BG Section*/
+
+  .content-left,
+  .content-right {
+    text-align: left !important;
+    flex: 0 1 49% !important;
+  }
+
+  .content-left > .heading:after,
+  .content-right > .heading:after {
+    margin-left: 0;
+  }
+
+  .nobg-section {
+    height: 100%;
+  }
+
+  .content-icon {
+    width: auto;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+
+  .content-icon.icon-1 {
+    background-image: url(../img/icons/designsprints.svg);
+    height: 280px;
+    margin: 48px 0;
+  }
+
+  .content-icon.icon-2 {
+    background-image: url(../img/icons/userresearch.svg);
+    height: 280px;
+    margin: 48px 0;
+  }
+
+  .content-icon.icon-3 {
+    background-image: url(../img/icons/documentation.svg);
+    height: 320px;
+    margin: 48px 0;
+  }
+
+  .content-icon.icon-4 {
+    background-image: url(../img/icons/assistance.svg);
+    height: 320px;
+    margin: 48px 0;
+  }
+
+  .nobg-section > .container {
+    height: 100%;
+    padding: 120px 48px 160px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+
+  .nobg-content {
+    text-align: center;
+    width: 100%;
+  }
+
+  .training-caption {
+    max-width: 600px;
+  }
+
+  .nobg-content > .caption {
+    margin: 0 auto;
+  }
+
+  .nobg-content > .caption > p {
+    text-align: left;
+    margin-bottom: 24px;
+  }
+
+  .nobg-content > .caption > p:last-child {
+    margin-bottom: 48px;
+  }
+
+/* Section - With BG Content */
+  .withbg-section {
+    height: 100%;
+  }
+
+  .withbg-section > .container {
+    height: 100%;
+    padding: 200px 48px 240px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+
+  .withbg-content {
+    text-align: center;
+    color: #ffffff;
+    width: 100%;
+  }
+
+  .withbg-content > .caption {
+    text-align: left;
+    margin: 0 auto;
+  }
+
+  .withbg-content > .caption > p {
+    text-align: left;
+    margin-bottom: 24px;
+  }
+
+  .withbg-content > .caption > p:last-child {
+    margin-bottom: 48px;
+  }
+
+  .withbg-background {
+    height: calc(100% - 144px);
+    width: 100%;
+    position: absolute;
+    top: 0;
+  }
+
+  .withbg-front,
+  .withbg-back {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+  }
+
+  .withbg-front {
+    top: 72px;
+    z-index: -8;
+    -webkit-transform: skewY(5deg);
+    transform: skewY(5deg);
+  }
+
+  .withbg-back {
+    top: 56px;
+    z-index: -16;
+    -webkit-transform: skewY(-5deg);
+    transform: skewY(-5deg);
+  }
+
+  .withbg-front > .front,
+  .withbg-back > .back {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+  }
+
+  .withbg-front > .front {
+    background-color: #0D2132;
+  }
+
+  .withbg-back > .back {
+    background-color: #70B3B8;
+  }
+
+/* Section - Location */
+  
+  .training-location {
+    padding-bottom: 40px !important;
+  }
+
+/* Section - Work */
+  .work-section {
+    height: 100%;
+    overflow: auto;
+  }
+
+  .work-section > .container {
+    height: 100%;
+    padding: 200px 48px 160px;
+    /*padding:48px for mobile*/
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .work-content {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+  }
+
+  .company-logos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-line-pack: distribute;
+        align-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .company-logo {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
+    margin: 24px;
+  }
+
+/* Section - Services */
+  .uxtraining-section {
+    height: 100%;
+  }
+
+  .uxtraining-section > .container {
+    height: 100%;
+    padding: 200px 48px 120px;
+    top: -48px;
+    position: relative;
+  }
+
+  .uxtraining-content {
+    text-align: center;
+    width: 100%;
+  }
+
+  .uxtraining-content > .heading {
+    color: #ffffff;
+  }
+
+  .uxtraining-content > .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+
+  .uxtraining-content > .row > .column {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 48%;
+            flex: 0 1 48%;
+  }
+
+  .uxtraining-card {
+    background-color: #ffffff;
+    box-shadow: 0px 5px 20px -5px rgba(153,153,153,1);
+  }
+
+  .uxtraining-card > .shopify-buy-frame {
+    margin: 0 auto;
+    padding-bottom: 32px;
+  }
+
+  .uxtraining-card > .image {
+    width: 100%;
+    background-color: #efefef;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 80%;
+  }
+
+  .uxtraining-info {
+    padding: 32px 24px;
+    min-height: 540px;
+    color: #0D2132;
+  }
+
+  .uxtraining-info > .title {
+    margin-bottom: 16px;
+    min-height: 96px;
+  }
+
+  .uxtraining-info > .caption {
+    min-height: 80px;
+    font-size: 18px;
+  }
+
+  .uxtraining-info > .price {
+    font-size: 76px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    color: #70B3B8;
+  }
+
+  .uxtraining-info > .price > span {
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 8px;
+    display: block;
+    text-decoration: line-through;
+    color: #aaaaaa;
+  }
+
+  .uxtraining-info > .list {
+    list-style-type: disc;
+    text-align: left;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-bottom: 36px;
+  }
+
+  .uxtraining-info > .list > .item {
+    margin-bottom: 12px;
+    line-height: 25px;
+  }
+
+  .uxtraining-info > .divider {
+    border-bottom: 1px #efefef solid;
+    margin: 32px 0;
+  }
+
+  .uxtraining-addon > .title {
+    margin-bottom: 16px;
+  }
+
+  .uxtraining-background {
+    height: calc(100% - 200px);
+    width: 100%;
+    position: absolute;
+    top: 0;
+  }
+
+  .uxtraining-front,
+  .uxtraining-back {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+  }
+
+  .uxtraining-front {
+    top: 72px;
+    z-index: -8;
+    -webkit-transform: skewY(5deg);
+    transform: skewY(5deg);
+  }
+
+  .uxtraining-back {
+    top: 56px;
+    z-index: -16;
+    -webkit-transform: skewY(-5deg);
+    transform: skewY(-5deg);
+  }
+
+  .uxtraining-front > .front,
+  .uxtraining-back > .back {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+  }
+
+  .uxtraining-front > .front {
+    background-color: #0D2132;
+  }
+
+  .uxtraining-back > .back {
+    background-color: #70B3B8;
+  }
+
+
+/* Section - Footer */
+
+  .footer > .container {
+    padding: 160px 48px 80px;
+  }
+
+  .footer-back {
+    -webkit-transform: skewY(5deg);
+    transform: skewY(5deg);
+    -webkit-transform-origin: top left;
+            transform-origin: top left;
+  }
+
+  .footer-back > .back {
+    -webkit-transform: skewY(-5deg);
+    transform: skewY(-5deg);
+  }
+
+
+/* Media Queries */
+  @media screen and (max-width: 640px) {
+
+    .hero-section > .container {
+      padding: 240px 48px;
+    }
+
+    .nobg-content > .row > .column {
+      -ms-flex-preferred-size: 100%;
+          flex-basis: 100%;
+    }
+
+    .uxtraining-content > .row > .column {
+      flex: 0 1 100%;
+      margin-bottom: 24px;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .hero-content {
+      width: 100%;
+    }
+    
+    .nobg-content,
+    .withbg-content {
+      -webkit-box-flex: 0;
+          -ms-flex: 0 1 100%;
+              flex: 0 1 100%;
+      margin: 0 0 24px;
+    }
+
+    .content-left,
+    .content-right {
+      text-align: center !important;
+      flex: 0 1 100% !important;
+    }
+
+    .content-left > .heading:after,
+    .content-right > .heading:after {
+      margin-left: auto;
+    }
+
+    .content-left {
+      order: 2;
+    }
+
+  }
