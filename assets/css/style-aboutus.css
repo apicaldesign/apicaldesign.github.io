@@ -151,7 +151,8 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -186,28 +187,29 @@
 
   .ourvalues-section > .container {
     height: 100%;
-    padding: 40px 48px 240px; /*200px 48px 240px*/
+    padding: 120px 48px; /*200px 48px 240px*/
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap-reverse;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: flex-start;
+        -ms-flex-align: flex-start;
+            align-items: flex-start;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
 
   .ourvalues-content {
-    text-align: center;
-    width: 100%;
-    margin: 0 auto;
+    text-align: left;
   }
 
   .ourvalues-content-left {
     text-align: left;
-    width: 49%;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 47%;
+            flex: 0 1 47%;
   }
 
   .ourvalues-content-right {
@@ -215,7 +217,12 @@
     width: 49%;
   }
 
-  .ourvalues-content-left > .heading:after {
+  .ourvalues-content > .caption > p {
+    text-align: left;
+    margin-bottom: 24px;
+  }
+
+  .ourvalues-content > .heading:after {
     margin-left: 0;
   }
 
@@ -305,7 +312,8 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -345,7 +353,8 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap-reverse;
+    -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -381,9 +390,14 @@
     line-height: 16px;
     margin-bottom: 36px;
     margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     max-width: 640px;
   }
 
@@ -434,7 +448,9 @@
 
 /* Section - Member Photo */  
   .member {
-    flex: 0 1 48%;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 48%;
+            flex: 0 1 48%;
     height: 100%;
   }
 

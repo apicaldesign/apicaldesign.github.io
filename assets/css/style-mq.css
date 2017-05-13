@@ -60,6 +60,10 @@
     .nav-options > .option > a {
       display: block;
     }
+
+    .contactform-section {
+      margin: 40px 0 120px;
+    }
   }
 
   @media screen and (max-width: 960px) {
