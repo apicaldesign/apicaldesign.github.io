@@ -63,6 +63,7 @@
                 "font-family": "Karla, sans-serif",
                 "padding-left": "30px",
                 "padding-right": "30px",
+                "font-size": "18px",
                 ":hover": {
                   "background-color": "#65a1a6"
                 },
@@ -156,6 +157,7 @@
                 "font-family": "Karla, sans-serif",
                 "padding-left": "30px",
                 "padding-right": "30px",
+                "font-size": "18px",
                 ":hover": {
                   "background-color": "#65a1a6"
                 },
@@ -268,7 +270,7 @@
               "quantity": false
             },
             "text": {
-              "button": "+ Add Skype Follow-up ($50)"
+              "button": "+ Skype Follow-up ($50)"
             },
             "styles": {
               "product": {
@@ -284,6 +286,7 @@
                 "width": "100%",
                 "font-family": "Karla, sans-serif",
                 "padding": "16px",
+                "font-size": "18px",
                 "text-align": "left",
                 ":hover": {
                   "background-color": "#e6e6e6",
@@ -382,6 +385,7 @@
                 "width": "100%",
                 "font-family": "Karla, sans-serif",
                 "padding": "16px",
+                "font-size": "18px",
                 "text-align": "left",
                 ":hover": {
                   "background-color": "#e6e6e6",
@@ -495,7 +499,7 @@
               "quantity": false
             },
             "text": {
-              "button": "+ Add Content Strategy Audit ($150)"
+              "button": "+ Content Audit ($150)"
             },
             "styles": {
               "product": {
@@ -511,6 +515,7 @@
                 "width": "100%",
                 "font-family": "Karla, sans-serif",
                 "padding": "16px",
+                "font-size": "18px",
                 "text-align": "left",
                 ":hover": {
                   "background-color": "#e6e6e6",
@@ -609,6 +614,7 @@
                 "width": "100%",
                 "font-family": "Karla, sans-serif",
                 "padding": "16px",
+                "font-size": "18px",
                 "text-align": "left",
                 ":hover": {
                   "background-color": "#e6e6e6",
@@ -722,7 +728,7 @@
               "quantity": false
             },
             "text": {
-              "button": "+ Add 5 Usability Tests ($700)"
+              "button": "+ 5 Usability Tests ($700)"
             },
             "styles": {
               "product": {
@@ -738,6 +744,7 @@
                 "width": "100%",
                 "font-family": "Karla, sans-serif",
                 "padding": "16px",
+                "font-size": "18px",
                 "text-align": "left",
                 ":hover": {
                   "background-color": "#e6e6e6",
@@ -836,6 +843,7 @@
                 "width": "100%",
                 "font-family": "Karla, sans-serif",
                 "padding": "16px",
+                "font-size": "18px",
                 "text-align": "left",
                 ":hover": {
                   "background-color": "#e6e6e6",
@@ -949,7 +957,7 @@
               "quantity": false
             },
             "text": {
-              "button": "+ Add a Translated Copy ($100)"
+              "button": "+ Translated Copy ($100)"
             },
             "styles": {
               "product": {
@@ -965,6 +973,7 @@
                 "width": "100%",
                 "font-family": "Karla, sans-serif",
                 "padding": "16px",
+                "font-size": "18px",
                 "text-align": "left",
                 ":hover": {
                   "background-color": "#e6e6e6",
@@ -1063,6 +1072,7 @@
                 "width": "100%",
                 "font-family": "Karla, sans-serif",
                 "padding": "16px",
+                "font-size": "18px",
                 "text-align": "left",
                 ":hover": {
                   "background-color": "#e6e6e6",
@@ -1192,6 +1202,7 @@
                 "font-family": "Karla, sans-serif",
                 "padding-left": "30px",
                 "padding-right": "30px",
+                "font-size": "18px",
                 ":hover": {
                   "background-color": "#65a1a6"
                 },
@@ -1285,6 +1296,7 @@
                 "font-family": "Karla, sans-serif",
                 "padding-left": "30px",
                 "padding-right": "30px",
+                "font-size": "18px",
                 ":hover": {
                   "background-color": "#65a1a6"
                 },
@@ -1397,7 +1409,7 @@
               "quantity": false
             },
             "text": {
-              "button": "+ Add Content Strategy Audit ($150)"
+              "button": "+ Content Audit ($150)"
             },
             "styles": {
               "product": {
@@ -1413,6 +1425,7 @@
                 "width": "100%",
                 "font-family": "Karla, sans-serif",
                 "padding": "16px",
+                "font-size": "18px",
                 "text-align": "left",
                 ":hover": {
                   "background-color": "#e6e6e6",
@@ -1511,6 +1524,7 @@
                 "width": "100%",
                 "font-family": "Karla, sans-serif",
                 "padding": "16px",
+                "font-size": "18px",
                 "text-align": "left",
                 ":hover": {
                   "background-color": "#e6e6e6",
@@ -1624,7 +1638,7 @@
               "quantity": false
             },
             "text": {
-              "button": "+ Add 5 Usability Tests ($700)"
+              "button": "+ 5 Usability Tests ($700)"
             },
             "styles": {
               "product": {
@@ -1640,6 +1654,7 @@
                 "width": "100%",
                 "font-family": "Karla, sans-serif",
                 "padding": "16px",
+                "font-size": "18px",
                 "text-align": "left",
                 ":hover": {
                   "background-color": "#e6e6e6",
@@ -1738,6 +1753,7 @@
                 "width": "100%",
                 "font-family": "Karla, sans-serif",
                 "padding": "16px",
+                "font-size": "18px",
                 "text-align": "left",
                 ":hover": {
                   "background-color": "#e6e6e6",
@@ -1851,7 +1867,7 @@
               "quantity": false
             },
             "text": {
-              "button": "+ Add a Translated Copy ($100)"
+              "button": "+ Translated Copy ($100)"
             },
             "styles": {
               "product": {
@@ -1867,6 +1883,7 @@
                 "width": "100%",
                 "font-family": "Karla, sans-serif",
                 "padding": "16px",
+                "font-size": "18px",
                 "text-align": "left",
                 ":hover": {
                   "background-color": "#e6e6e6",
@@ -1965,6 +1982,7 @@
                 "width": "100%",
                 "font-family": "Karla, sans-serif",
                 "padding": "16px",
+                "font-size": "18px",
                 "text-align": "left",
                 ":hover": {
                   "background-color": "#e6e6e6",
@@ -2094,6 +2112,7 @@
                 "font-family": "Karla, sans-serif",
                 "padding-left": "30px",
                 "padding-right": "30px",
+                "font-size": "18px",
                 ":hover": {
                   "background-color": "#65a1a6"
                 },
@@ -2187,6 +2206,7 @@
                 "font-family": "Karla, sans-serif",
                 "padding-left": "30px",
                 "padding-right": "30px",
+                "font-size": "18px",
                 ":hover": {
                   "background-color": "#65a1a6"
                 },
@@ -2299,7 +2319,7 @@
               "quantity": false
             },
             "text": {
-              "button": "+ Add a Translated Copy ($100)"
+              "button": "+ Translated Copy ($100)"
             },
             "styles": {
               "product": {
@@ -2315,6 +2335,7 @@
                 "width": "100%",
                 "font-family": "Karla, sans-serif",
                 "padding": "16px",
+                "font-size": "18px",
                 "text-align": "left",
                 ":hover": {
                   "background-color": "#e6e6e6",
@@ -2413,6 +2434,7 @@
                 "width": "100%",
                 "font-family": "Karla, sans-serif",
                 "padding": "16px",
+                "font-size": "18px",
                 "text-align": "left",
                 ":hover": {
                   "background-color": "#e6e6e6",
