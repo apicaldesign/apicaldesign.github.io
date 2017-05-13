@@ -138,13 +138,7 @@
 
   .content-left,
   .content-right {
-    text-align: left !important;
     flex: 0 1 49% !important;
-  }
-
-  .content-left > .heading:after,
-  .content-right > .heading:after {
-    margin-left: 0;
   }
 
   .nobg-section {
@@ -152,8 +146,10 @@
   }
 
   .content-icon {
-    width: auto;
+    width: 100%;
+    height: 160px;
     display: block;
+    margin: 48px 0;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -161,38 +157,30 @@
 
   .content-icon.icon-1 {
     background-image: url(../img/icons/designsprints.svg);
-    height: 280px;
-    margin: 48px 0;
   }
 
   .content-icon.icon-2 {
     background-image: url(../img/icons/userresearch.svg);
-    height: 280px;
-    margin: 48px 0;
   }
 
   .content-icon.icon-3 {
     background-image: url(../img/icons/documentation.svg);
-    height: 320px;
-    margin: 48px 0;
   }
 
   .content-icon.icon-4 {
     background-image: url(../img/icons/assistance.svg);
-    height: 320px;
-    margin: 48px 0;
   }
 
   .nobg-section > .container {
     height: 100%;
-    padding: 120px 48px 160px;
+    padding: 120px 48px 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     flex-wrap: wrap;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
@@ -200,11 +188,16 @@
 
   .nobg-content {
     text-align: center;
-    width: 100%;
+    flex: 0 1 47%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
   }
 
   .nobg-content > .caption {
     margin: 0 auto;
+    flex: 1 0 auto;
   }
 
   .nobg-content > .caption > p {
@@ -227,7 +220,7 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -340,7 +333,7 @@
       -webkit-box-flex: 0;
           -ms-flex: 0 1 100%;
               flex: 0 1 100%;
-      margin: 0 0 24px;
+      margin: 0 0 80px;
     }
 
     .content-left,
