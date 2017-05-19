@@ -191,7 +191,7 @@
 
   .whatsincluded-list > .item {
     margin-bottom: 12px;
-    line-height: 19px;
+    line-height: 25px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -267,7 +267,7 @@
 
   .whositfor-list > .item {
     margin-bottom: 12px;
-    line-height: 19px;
+    line-height: 25px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -473,25 +473,6 @@
 
   .uxplan-back > .back {
     background-color: #70B3B8;
-  }
-
-
-/* Section - Footer */
-
-  .footer > .container {
-    padding: 160px 48px 80px;
-  }
-
-  .footer-back {
-    -webkit-transform: skewY(5deg);
-    transform: skewY(5deg);
-    -webkit-transform-origin: top left;
-            transform-origin: top left;
-  }
-
-  .footer-back > .back {
-    -webkit-transform: skewY(-5deg);
-    transform: skewY(-5deg);
   }
 
 /* Section - Bonus */

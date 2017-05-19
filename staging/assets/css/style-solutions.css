@@ -294,22 +294,6 @@
     background-color: #70B3B8;
   }
 
-/* Section - Footer */
-
-  .footer > .container {
-    padding: 80px 48px;
-  }
-
-  .footer-back {
-    -webkit-transform: skewY(-5deg);
-    transform: skewY(-5deg);
-  }
-
-  .footer-back > .back {
-    -webkit-transform: skewY(-5deg);
-    transform: skewY(-5deg);
-  }
-
 /* Media Queries */
   @media screen and (max-width: 640px) {
 

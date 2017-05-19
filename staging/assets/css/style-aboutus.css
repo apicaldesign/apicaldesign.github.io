@@ -237,7 +237,7 @@
 
   .ourvalues-list > .item {
     margin-bottom: 12px;
-    line-height: 19px;
+    line-height: 25px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -521,22 +521,6 @@
   }
   .member:nth-child(2) > .member-photo > .member-placeholder > .member-image:before {
     background-image: url(../img/team/team-2.jpg);
-  }
-
-/* Section - Footer */
-
-  .footer > .container {
-    padding: 80px 48px;
-  }
-
-  .footer-back {
-    -webkit-transform: skewY(-5deg);
-    transform: skewY(-5deg);
-  }
-
-  .footer-back > .back {
-    -webkit-transform: skewY(-5deg);
-    transform: skewY(-5deg);
   }
 
 /* Media Queries */
