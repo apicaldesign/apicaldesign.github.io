@@ -411,6 +411,7 @@
   .footer {
     height: 100%;
     position: relative;
+    border-top: solid 3px #B70303;
   }
 
   .footer > .container {
