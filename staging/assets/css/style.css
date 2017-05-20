@@ -197,7 +197,7 @@
     font-size: 18px;
     font-family: 'Nunito', sans-serif;
     display: inline-block;
-    padding: 32px 24px;
+    padding: 32px 20px;
     text-decoration: none;
     -webkit-transition: background 200ms ease-out;
     transition: background 200ms ease-out;
@@ -317,14 +317,10 @@
   }
 
 /* Section - Location */  
-  .locations-section {
-    content: "";
+  .locations-section > .image {
     width: 100%;
-    min-height: 384px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url(../img/stock/manila-la.png);
+    height: auto;
+    display: block;
   }
 
   /*
