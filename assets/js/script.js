@@ -6,7 +6,7 @@ for (i = 0; i < links.length; i++)
 
 function linkClick(e) {
   var nav = document.getElementById("nav");
-  if (document.documentElement.clientWidth <= 800) {
+  if (document.documentElement.clientWidth <= 1080) {
     nav.style.display = 'none';
   }
 }
@@ -25,7 +25,7 @@ function toggleMenu() {
 window.addEventListener("resize", function(){
   var nav = document.getElementById("nav");
 
-  if (document.documentElement.clientWidth > 800) {
+  if (document.documentElement.clientWidth > 1080) {
     nav.style.display = 'flex';
   }
   else {

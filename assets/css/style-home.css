@@ -279,14 +279,14 @@
   .services-card > .content > .list {
     list-style-type: disc;
     text-align: left;
-    line-height: 16px;
+    line-height: 25px;
     margin-left: 20px;
     margin-bottom: 36px;
   }
 
   .services-card > .content > .list > .item {
     margin-bottom: 12px;
-    line-height: 19px;
+    line-height: 25px;
   }
 
   .services-background {
@@ -429,13 +429,13 @@
 
   .values-list { 
     list-style-type: disc;
-    line-height: 16px;
+    line-height: 25px;
     margin-left: 20px;
   }
 
   .values-list > .item {
     margin-bottom: 12px;
-    line-height: 19px;
+    line-height: 25px;
   }
 
   .emphasis {
@@ -486,22 +486,6 @@
 
   .values-back > .back {
     background-color: #70B3B8;
-  }
-
-/* Section - Footer */
-
-  .footer > .container {
-    padding: 80px 48px;
-  }
-
-  .footer-back {
-    -webkit-transform: skewY(-5deg);
-    transform: skewY(-5deg);
-  }
-
-  .footer-back > .back {
-    -webkit-transform: skewY(5deg);
-    transform: skewY(5deg);
   }
 
 /* Section - Bonus */

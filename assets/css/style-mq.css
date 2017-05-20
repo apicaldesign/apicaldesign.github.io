@@ -36,33 +36,12 @@
       padding-right: 24px!important;
     }
 
-    .nav-button {
-      display: block;
-      height: 80px;
-      position: absolute;
-      right: 0;
-      padding: 24px;
+    .contactform-section {
+      margin: 40px 0 120px;
     }
 
     .nav-options {
-      display: none;
       margin-right: -24px;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-          -ms-flex-direction: column;
-              flex-direction: column;
-
-      height: 100vh;
-      padding: 80px 24px 80px;
-      background: #0D2132;
-    }
-
-    .nav-options > .option > a {
-      display: block;
-    }
-
-    .contactform-section {
-      margin: 40px 0 120px;
     }
   }
 
@@ -76,5 +55,31 @@
       height: 80px;
       width: 48px;
       float: left;
+    }
+  }
+
+  @media screen and (max-width: 1080px) {
+   .nav-button {
+      display: block;
+      height: 80px;
+      position: absolute;
+      right: 0;
+      padding: 24px;
+    }
+
+    .nav-options {
+      display: none;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+
+      height: 100vh;
+      padding: 80px 24px 80px;
+      background: #0D2132;
+    }
+
+    .nav-options > .option > a {
+      display: block;
     }
   }

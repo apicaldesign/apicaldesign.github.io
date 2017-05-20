@@ -139,7 +139,7 @@
   .content-left,
   .content-right {
     text-align: left !important;
-    flex: 0 1 49% !important;
+    flex: 0 1 47% !important;
   }
 
   .content-left > .heading:after,
@@ -190,9 +190,9 @@
     display: -ms-flexbox;
     display: flex;
     flex-wrap: wrap;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
@@ -261,7 +261,7 @@
   }
 
   .withbg-background {
-    height: calc(100% - 144px);
+    height: 100%;
     width: 100%;
     position: absolute;
     top: 0;
@@ -355,14 +355,39 @@
     margin: 24px;
   }
 
-/* Section - Services */
+/* Section - UX Training Countries */
+  .uxtraining-countries {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .country {
+    text-align: center;
+    flex: 0 1 31%;
+    margin-bottom: 24px;
+  }
+
+  .country:last-child {    
+    margin-right: auto;
+    margin-left: 3.5%;
+  }
+
+  .country > .image {
+    width: auto;
+    display: block;
+    margin-bottom: 16px;
+    box-shadow: 0px 5px 20px -5px rgba(153,153,153,1);
+  }
+
+/* Section - UX Training Countries */
   .uxtraining-section {
     height: 100%;
   }
 
   .uxtraining-section > .container {
     height: 100%;
-    padding: 200px 48px 120px;
+    padding: 208px 48px 40px;
     top: -48px;
     position: relative;
   }
@@ -389,10 +414,10 @@
 
   .uxtraining-content > .row > .column {
     -webkit-box-flex: 0;
-        -ms-flex: 0 1 48%;
-            flex: 0 1 48%;
+        -ms-flex: 0 1 31%;
+            flex: 0 1 31%;
   }
-
+  
   .uxtraining-card {
     background-color: #ffffff;
     box-shadow: 0px 5px 20px -5px rgba(153,153,153,1);
@@ -414,18 +439,15 @@
 
   .uxtraining-info {
     padding: 32px 24px;
-    min-height: 540px;
-    color: #0D2132;
   }
 
   .uxtraining-info > .title {
     margin-bottom: 16px;
-    min-height: 96px;
   }
 
   .uxtraining-info > .caption {
     min-height: 80px;
-    font-size: 18px;
+    font-size: 12.8px;
   }
 
   .uxtraining-info > .price {
@@ -450,6 +472,7 @@
     font-size: 18px;
     margin-left: 20px;
     margin-bottom: 36px;
+    min-height: 284px;
   }
 
   .uxtraining-info > .list > .item {
@@ -459,11 +482,41 @@
 
   .uxtraining-info > .divider {
     border-bottom: 1px #efefef solid;
-    margin: 32px 0;
+    margin: 24px 0;
   }
 
   .uxtraining-addon > .title {
     margin-bottom: 16px;
+  }
+
+  .box {
+    position: relative;
+    width: 100%;
+  }
+
+  .box-top {
+    display: flex;
+    background: #B70303;
+    height: 32px;
+    width: 100%;
+  }
+
+  .box-placeholder {
+    margin: auto;
+    font-family: Karla, "san-serif";
+    font-size: 12.8px;
+    letter-spacing: 2px;
+    color: #ffffff;
+  }
+
+  .box-bottom {
+    top: 32px;
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-top: 16px solid #B70303;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
   }
 
   .uxtraining-background {
@@ -511,26 +564,6 @@
     background-color: #70B3B8;
   }
 
-
-/* Section - Footer */
-
-  .footer > .container {
-    padding: 160px 48px 80px;
-  }
-
-  .footer-back {
-    -webkit-transform: skewY(5deg);
-    transform: skewY(5deg);
-    -webkit-transform-origin: top left;
-            transform-origin: top left;
-  }
-
-  .footer-back > .back {
-    -webkit-transform: skewY(-5deg);
-    transform: skewY(-5deg);
-  }
-
-
 /* Media Queries */
   @media screen and (max-width: 640px) {
 
@@ -546,6 +579,10 @@
     .uxtraining-content > .row > .column {
       flex: 0 1 100%;
       margin-bottom: 24px;
+    }
+
+    .uxtraining-info > .list {
+      min-height: initial;
     }
   }
 
@@ -573,8 +610,21 @@
       margin-left: auto;
     }
 
-    .content-left {
-      order: 2;
+    .uxtraining-content > .row > .column {
+      margin-bottom: 24px;
+      -webkit-box-flex: 0;
+          -ms-flex: 0 1 100%;
+              flex: 0 1 100%;
     }
 
+  }
+
+  @media screen and (max-width: 960px) {
+    .country {
+      flex: 0 1 46%;
+    }
+
+    .country:last-child {
+      margin: 0;
+    }
   }
