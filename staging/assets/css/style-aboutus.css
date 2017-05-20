@@ -232,7 +232,6 @@
     line-height: 16px;
     margin-bottom: 36px;
     max-width: 600px;
-    margin: 0 auto;
   }
 
   .ourvalues-list > .item {
@@ -532,6 +531,17 @@
     .ourmission-content > .row > .column {
       -ms-flex-preferred-size: 100%;
           flex-basis: 100%;
+    }
+
+    .member {
+      -webkit-box-flex: 0;
+          -ms-flex: 0 1 100%;
+              flex: 0 1 100%;
+      margin-bottom: 40px;
+    } 
+
+    .member:last-child {
+      margin-bottom: 0px;
     }
   }
 
