@@ -1,0 +1,85 @@
+/* Media Queries */
+  @media screen and (max-width: 640px) {
+    .contactform-content {
+      padding: 24px;
+    }
+    .contactform-form > .row > .column {
+      -ms-flex-preferred-size: 100%;
+          flex-basis: 100%;
+    }
+
+    .location-card {
+      -ms-flex-preferred-size: 100%;
+          flex-basis: 100%;
+    }
+
+    .footer > .container > .row > .column:nth-child(1),
+    .footer > .container > .row > .column:nth-child(2) {
+      -webkit-box-flex: 0;
+          -ms-flex: 0 1 100%;
+              flex: 0 1 100%;
+      margin-bottom: 24px;
+    }
+
+    .footer-copyright {
+      margin-top: 24px;
+    }
+
+    .bonus-label > span {
+      display: block;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .container {
+      padding-left: 24px!important;
+      padding-right: 24px!important;
+    }
+
+    .contactform-section {
+      margin: 128px 0 120px;
+    }
+
+    .nav-options {
+      margin-right: -24px;
+    }
+  }
+
+  @media screen and (max-width: 960px) {
+    .logo {
+      background: url(../img/logos/apical-logo-black.svg);
+      background-size: 100% auto;
+      background-repeat: no-repeat;
+      background-position: center;
+      text-indent: -9999px;
+      height: 80px;
+      width: 48px;
+      float: left;
+    }
+  }
+
+  @media screen and (max-width: 1080px) {
+   .nav-button {
+      display: block;
+      height: 80px;
+      position: absolute;
+      right: 0;
+      padding: 24px;
+    }
+
+    .nav-options {
+      display: none;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+
+      height: 100vh;
+      padding: 80px 24px 80px;
+      background: #0D2132;
+    }
+
+    .nav-options > .option > a {
+      display: block;
+    }
+  }
