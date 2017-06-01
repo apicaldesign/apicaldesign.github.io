@@ -306,7 +306,7 @@
   }
 
 /* Section - Location */
-  
+
   .training-location {
     padding-bottom: 40px !important;
   }
@@ -364,13 +364,13 @@
 
   .country {
     text-align: center;
-    flex: 0 1 31%;
+    width: 150px;
     margin-bottom: 24px;
   }
 
-  .country:last-child {    
-    margin-right: auto;
-    margin-left: 3.5%;
+  .country:last-child {
+    /*margin-right: auto;*/
+    /*margin-left: 5.5%;*/
   }
 
   .country > .image {
@@ -417,7 +417,7 @@
         -ms-flex: 0 1 31%;
             flex: 0 1 31%;
   }
-  
+
   .uxtraining-card {
     background-color: #ffffff;
     box-shadow: 0px 5px 20px -5px rgba(153,153,153,1);
@@ -590,7 +590,7 @@
     .hero-content {
       width: 100%;
     }
-    
+
     .nobg-content,
     .withbg-content {
       -webkit-box-flex: 0;
