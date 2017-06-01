@@ -197,7 +197,7 @@
     display: flex;
   }
 
-  .whatsincluded-list > .item > .icon, 
+  .whatsincluded-list > .item > .icon,
   .whatsincluded-list > .item > .info {
     font-size: 18px;
     line-height: 25px;
@@ -273,7 +273,7 @@
     display: flex;
   }
 
-  .whositfor-list > .item > .icon, 
+  .whositfor-list > .item > .icon,
   .whositfor-list > .item > .info {
     font-size: 18px;
     line-height: 25px;
@@ -538,8 +538,8 @@
   .bonus-submit {
     padding: 0px 16px;
     -webkit-box-flex: 0;
-        -ms-flex: 0 1 25%;
-            flex: 0 1 25%;
+        -ms-flex: 0 1 35%;
+            flex: 0 1 35%;
     -webkit-appearance: none;
     -moz-appearance: none;
          appearance: none;

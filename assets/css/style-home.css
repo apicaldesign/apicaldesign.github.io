@@ -427,7 +427,7 @@
     padding-bottom: 16px;
   }
 
-  .values-list { 
+  .values-list {
     list-style-type: disc;
     line-height: 25px;
     margin-left: 20px;
@@ -556,8 +556,8 @@
   .bonus-submit {
     padding: 0px 16px;
     -webkit-box-flex: 0;
-        -ms-flex: 0 1 25%;
-            flex: 0 1 25%;
+        -ms-flex: 0 1 35%;
+            flex: 0 1 35%;
     -webkit-appearance: none;
     -moz-appearance: none;
          appearance: none;

@@ -13,8 +13,8 @@
   dl, dt, dd, ol, ul, li,
   fieldset, form, label, legend,
   table, caption, tbody, tfoot, thead, tr, th, td,
-  article, aside, canvas, details, embed, 
-  figure, figcaption, footer, header, hgroup, 
+  article, aside, canvas, details, embed,
+  figure, figcaption, footer, header, hgroup,
   menu, nav, output, ruby, section, summary,
   time, mark, audio, video {
     margin: 0;
@@ -25,7 +25,7 @@
     vertical-align: baseline;
   }
   /* HTML5 display-role reset for older browsers */
-  article, aside, details, figcaption, figure, 
+  article, aside, details, figcaption, figure,
   footer, header, hgroup, menu, nav, section {
     display: block;
   }
@@ -48,14 +48,14 @@
     border-spacing: 0;
   }
 
-  /* Defaults */ 
+  /* Defaults */
   body {
     margin: 0;
     padding: 0;
     display: block;
     color: #0D2132;
     font-family: 'Karla', sans-serif;
-    font-size: 18px; 
+    font-size: 18px;
   }
 
   h1 { font-size: 48px }
@@ -71,9 +71,9 @@
     text-transform: uppercase;
   }
 
-  p { 
+  p {
     line-height: 25px;
-    font-size: 18px; 
+    font-size: 18px;
     font-weight: 100;
     word-wrap: break-word;
   }
@@ -292,7 +292,7 @@
     border-radius: 0;
     border: 1px solid #0D2132;
   }
-  
+
   .contactform-input > .input,
   .contactform-input > .select,
   .contactform-input > .textarea,
@@ -316,7 +316,7 @@
     padding: 16px 30px;
   }
 
-/* Section - Location */  
+/* Section - Location */
   .locations-section > .image {
     width: 100%;
     height: auto;
@@ -508,8 +508,8 @@
 
   .subscription-submit {
     -webkit-box-flex: 0;
-        -ms-flex: 0 1 25%;
-            flex: 0 1 25%;
+        -ms-flex: 0 1 35%;
+            flex: 0 1 35%;
   }
 
 
