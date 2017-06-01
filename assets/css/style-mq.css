@@ -54,6 +54,7 @@
       text-indent: -9999px;
       height: 80px;
       width: 48px;
+      min-width: 0px;
       float: left;
     }
   }
