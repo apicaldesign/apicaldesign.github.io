@@ -139,7 +139,9 @@
   .content-left,
   .content-right {
     text-align: left !important;
-    flex: 0 1 47% !important;
+    -webkit-box-flex: 0 !important;
+        -ms-flex: 0 1 47% !important;
+            flex: 0 1 47% !important;
   }
 
   .content-left > .heading:after,
@@ -189,7 +191,8 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: start;
@@ -231,7 +234,8 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap-reverse;
+    -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -357,15 +361,23 @@
 
 /* Section - UX Training Countries */
   .uxtraining-countries {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
 
   .country {
     text-align: center;
-    flex: 0 1 31%;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 31%;
+            flex: 0 1 31%;
     margin-bottom: 24px;
+    width: 31%;
   }
 
   .country:last-child {    
@@ -377,7 +389,8 @@
     width: auto;
     display: block;
     margin-bottom: 16px;
-    box-shadow: 0px 5px 20px -5px rgba(153,153,153,1);
+    -webkit-box-shadow: 0px 5px 20px -5px rgba(153,153,153,1);
+            box-shadow: 0px 5px 20px -5px rgba(153,153,153,1);
   }
 
 /* Section - UX Training Countries */
@@ -420,7 +433,8 @@
   
   .uxtraining-card {
     background-color: #ffffff;
-    box-shadow: 0px 5px 20px -5px rgba(153,153,153,1);
+    -webkit-box-shadow: 0px 5px 20px -5px rgba(153,153,153,1);
+            box-shadow: 0px 5px 20px -5px rgba(153,153,153,1);
   }
 
   .uxtraining-card > .shopify-buy-frame {
@@ -495,6 +509,8 @@
   }
 
   .box-top {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     background: #B70303;
     height: 32px;
@@ -577,7 +593,9 @@
     }
 
     .uxtraining-content > .row > .column {
-      flex: 0 1 100%;
+      -webkit-box-flex: 0;
+          -ms-flex: 0 1 100%;
+              flex: 0 1 100%;
       margin-bottom: 24px;
     }
 
@@ -602,7 +620,9 @@
     .content-left,
     .content-right {
       text-align: center !important;
-      flex: 0 1 100% !important;
+      -webkit-box-flex: 0 !important;
+          -ms-flex: 0 1 100% !important;
+              flex: 0 1 100% !important;
     }
 
     .content-left > .heading:after,
@@ -621,7 +641,10 @@
 
   @media screen and (max-width: 960px) {
     .country {
-      flex: 0 1 46%;
+      -webkit-box-flex: 0;
+          -ms-flex: 0 1 46%;
+              flex: 0 1 46%;
+      width: 46%;
     }
 
     .country:last-child {
