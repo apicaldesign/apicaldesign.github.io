@@ -120,7 +120,7 @@
   }
 
   .hero-front > .front {
-    background-image: url(../img/stock/pricing-hero.png);
+    background-image: url(../img/stock/solutions-header.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -311,7 +311,7 @@
     .hero-content {
       width: 100%;
     }
-    
+
     .nobg-content,
     .withbg-content {
       -webkit-box-flex: 0;
