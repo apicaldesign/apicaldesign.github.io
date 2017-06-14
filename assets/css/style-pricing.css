@@ -198,7 +198,7 @@
     display: flex;
   }
 
-  .whatsincluded-list > .item > .icon, 
+  .whatsincluded-list > .item > .icon,
   .whatsincluded-list > .item > .info {
     font-size: 18px;
     line-height: 25px;
@@ -275,7 +275,7 @@
     display: flex;
   }
 
-  .whositfor-list > .item > .icon, 
+  .whositfor-list > .item > .icon,
   .whositfor-list > .item > .info {
     font-size: 18px;
     line-height: 25px;
@@ -324,6 +324,9 @@
     -webkit-box-flex: 0;
         -ms-flex: 0 1 31%;
             flex: 0 1 31%;
+    -ms-align-self: stretch;
+    -webkit-align-self: stretch;
+    align-self: stretch;
   }
 
   .uxplan-content > .row > .column:nth-child(1),
@@ -333,11 +336,19 @@
 
   .uxplan-card {
     background-color: #ffffff;
+    position: relative;
+
+    /*min-height: 1100px;*/
+    padding-bottom: 60px;
     -webkit-box-shadow: 0px 5px 20px -5px rgba(153,153,153,1);
             box-shadow: 0px 5px 20px -5px rgba(153,153,153,1);
   }
 
   .uxplan-card > .shopify-buy-frame {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
     margin: 0 auto;
     padding-bottom: 32px;
   }
@@ -630,6 +641,15 @@
     .whatsincluded-content > .row > .column {
       -ms-flex-preferred-size: 100%;
           flex-basis: 100%;
+    }
+  }
+
+  @media screen and (max-width: 850px) {
+    .uxplan-content > .row > .column {
+      margin-bottom: 24px;
+      -webkit-box-flex: 0;
+          -ms-flex: 0 1 100%;
+              flex: 0 1 100%;
     }
   }
 
