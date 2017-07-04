@@ -709,7 +709,7 @@
         }
       });
       /* Usability Tests */
-      ui.createComponent('product', {
+      /*ui.createComponent('product', {
         id: [10167261062],
         node: document.getElementById('usability-tests'),
         moneyFormat: '%24%7B%7Bamount%7D%7D',
@@ -936,7 +936,7 @@
             }
           }
         }
-      });
+      });*/
       /* Translated Copy */
       ui.createComponent('product', {
         id: [10167300230],
