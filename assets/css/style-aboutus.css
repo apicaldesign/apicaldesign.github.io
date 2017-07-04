@@ -458,7 +458,7 @@
     margin-bottom: 8px; 
   }
   .member > p {
-    margin-bottom: 16px;
+    margin-bottom: 50px;
   }
 
   .member-photo {
@@ -520,6 +520,9 @@
   }
   .member:nth-child(2) > .member-photo > .member-placeholder > .member-image:before {
     background-image: url(../img/team/team-2.jpg);
+  }
+  .member:nth-child(3) > .member-photo > .member-placeholder > .member-image:before {
+    background-image: url(../img/team/team-3.jpg);
   }
 
 /* Media Queries */
